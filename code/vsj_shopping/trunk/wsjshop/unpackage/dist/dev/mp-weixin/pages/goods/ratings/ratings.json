@@ -1,8 +1,0 @@
-{
-  "usingComponents": {},
-  "navigationBarTitleText": "商品评论",
-  "enablePullDownRefresh": true,
-  "onReachBottomDistance": 50,
-  "backgroundColorTop": "#ffffff",
-  "backgroundColorBottom": "#ffffff"
-}
