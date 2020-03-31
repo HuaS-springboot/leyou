@@ -1,0 +1,25 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: upload-service
+  servlet:
+    multipart:
+      max-file-size: 5MB # 限制文件上传大小
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.105:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 192.168.0.105
+ly:
+  upload:
+    baseUrl: http://manage.leyou.com/
+    allowTypes:
+      - image/jpeg
+      - image/png
+      - image/bmp
+#mybatis: #能看到sql语句的配置
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
