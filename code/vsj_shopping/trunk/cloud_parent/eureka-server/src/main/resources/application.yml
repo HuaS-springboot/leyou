@@ -1,0 +1,18 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+#声明自己是服务端，注册中心不注册自己
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://admin:vsj555@${eureka.instance.hostname}:${server.port}/eureka/
+
+spring:
+  security:
+   user:
+     name: admin
+     password: vsj555

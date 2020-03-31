@@ -1,0 +1,2 @@
+KdniaoShipperCodeConstant----快递鸟物流公司编码
+SysDictionaryTypeConstant----数据字典类型
